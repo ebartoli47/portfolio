@@ -17,6 +17,13 @@ body, html{
     height: 100%;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
 
 header{
     text-align: center;
@@ -50,6 +57,24 @@ header{
     margin-left: 30px;
     margin-right: 30px;
 }
+#logo{
+    flex: 10%;
+}
+#listadenav{
+    flex: 80%;
+    align-self: self-start;
+}
+#button-getintouch{
+    flex: 10%;
+    border: 2px solid #fff;
+    color: none;
+    padding: 14px 28px; 
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
+}
 
 .maintexto{
     display: flex;
@@ -67,10 +92,13 @@ header{
     top: 300px;
 }
 
+.presentacion p{
+    width: 70%;
+    text-align:start;
+}
+
 ul{
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 20px;
 }
 li{
@@ -82,14 +110,20 @@ h1, p{
     margin: 10px;
 }
 
+h1{
+    font-size: 80px;
+}
+
 img{
     max-width: 50px;
     max-height: 50px;
 }
 
-p{
+p, a{
     font-family:'Times New Roman', Times, serif;
     font-size: small;
     opacity: 60%;
+
 }
+
 
