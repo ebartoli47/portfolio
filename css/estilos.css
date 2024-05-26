@@ -99,7 +99,7 @@ ul{
     display: flex;
     margin: 20px;
 }
-li{
+.liheader{
     margin: 10px;
 }
 
@@ -112,6 +112,11 @@ h1{
     font-size: 80px;
 }
 
+h4{
+    text-align: center;
+    margin: 10px;
+}
+
 img, .scrolldown{
     max-width: 50px;
     max-height: 50px;
@@ -122,6 +127,29 @@ p, a{
     font-size: small;
     opacity: 60%;
 
+}
+
+.seccionuno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.seccionuno ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccionuno ul li img{
+    border: 1px solid #fff;
+    padding: 20px;
+    max-width: 75px;
+    
+}
+
+.clientes{
+    margin: 10px;
 }
 
 
