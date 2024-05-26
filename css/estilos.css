@@ -1,21 +1,32 @@
 @font-face {
     font-family: 'Specify-PERSONAL-Expanded-Bold';
-    src:url('Specify-PERSONAL-Expanded-Bold.ttf.woff') format('woff'),
-        url('Specify-PERSONAL-Expanded-Bold.ttf.svg#Specify-PERSONAL-Expanded-Bold') format('svg'),
-        url('Specify-PERSONAL-Expanded-Bold.ttf.eot'),
-        url('Specify-PERSONAL-Expanded-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    src:url('../fonts/Specify-PERSONAL-Expanded-Bold.ttf.woff') format('woff'),
+        url('../fonts/Specify-PERSONAL-Expanded-Bold.ttf.svg#Specify-PERSONAL-Expanded-Bold') format('svg'),
+        url('../fonts/Specify-PERSONAL-Expanded-Bold.ttf.eot'),
+        url('../fonts/Specify-PERSONAL-Expanded-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
     font-weight: normal;
     font-style: normal;
 }
 
-#{
+*{
     background-color: #010101;
+    font-family: 'Specify-PERSONAL-Expanded-Bold';
+    color: white;
 }
 .bg-section1{
     background-image: url("../img/fotoportfolio.jpg");
     filter: grayscale(100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+}
+h1, p{
+    background-color:initial;
 }
 
-h1 { 
-   font-family: 'Specify-PERSONAL-Expanded-Bold';
-}  
+img{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+
