@@ -66,14 +66,12 @@ header{
 }
 #button-getintouch{
     flex: 10%;
-    border: 2px solid #fff;
-    color: none;
-    padding: 14px 28px; 
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 15px;
+    font-size: 10px;
     cursor: pointer;
-    outline: none;
-    text-decoration: none;
-    transition: background-color 0.2s ease-out,
-              color 0.2s ease-out;
 }
 
 .maintexto{
@@ -114,7 +112,7 @@ h1{
     font-size: 80px;
 }
 
-img{
+img, .scrolldown{
     max-width: 50px;
     max-height: 50px;
 }
