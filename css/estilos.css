@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Specify-PERSONAL-Expanded-Bold';
+    src:url('Specify-PERSONAL-Expanded-Bold.ttf.woff') format('woff'),
+        url('Specify-PERSONAL-Expanded-Bold.ttf.svg#Specify-PERSONAL-Expanded-Bold') format('svg'),
+        url('Specify-PERSONAL-Expanded-Bold.ttf.eot'),
+        url('Specify-PERSONAL-Expanded-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+#{
+    background-color: #010101;
+}
+.bg-section1{
+    background-image: url("../img/fotoportfolio.jpg");
+    filter: grayscale(100%);
+}
+
+h1 { 
+   font-family: 'Specify-PERSONAL-Expanded-Bold';
+}  
