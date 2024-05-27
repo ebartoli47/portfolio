@@ -152,15 +152,20 @@ p, a{
     flex-direction: column;
 }
 
-.seccionuno ul {
+.clienteslista ul{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
 }
 
-.seccionuno ul li img{
+.clienteslista ul li img{
     border: 1px solid #fff;
     padding: 20px;
-    max-width: 75px;
+    max-width: 100%;
+    height: auto;
+    padding-left: 70px;
+    padding-right: 70px;
     
 }
 
