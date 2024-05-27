@@ -7,6 +7,16 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'TikusPutih-semibold';
+    src:url('TikusPutih-semibold.ttf.woff') format('woff'),
+        url('TikusPutih-semibold.ttf.svg#TikusPutih-semibold') format('svg'),
+        url('TikusPutih-semibold.ttf.eot'),
+        url('TikusPutih-semibold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 body, html{
     font-family: 'Specify-PERSONAL-Expanded-Bold';
@@ -115,16 +125,16 @@ ul{
     margin: 10px;
 }
 
-h1, p{
+p{
     background-color:initial;
-    margin: 10px;
 }
 
-h1{
+#nombre{
+    margin: 10px;
     font-size: 80px;
 }
 
-h4{
+.clientes h6{
     text-align: center;
     margin: 10px;
 }
@@ -171,6 +181,87 @@ p, a{
 
 .clientes{
     margin: 10px;
+}
+
+.secciondos{
+display: flex;
+flex-direction: row;
+}
+
+.secciondos h2{
+    font-family: 'TikusPutih-semibold';
+}
+
+.sobremi, .desc-sobremi{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: flex-start;
+    margin: 20px;
+}
+
+.sobremi h1{
+    width: 100%;
+    text-align:start;
+
+}
+
+.sobremi p{
+    margin: 0px;
+    color: #8aff00;
+}
+
+.sobremi button img { /*WARNING no finalizado*/
+    width: 10px;
+}
+
+#button-hiremenow{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 15px;
+    font-size: 10px;
+    cursor: pointer;
+    max-width: 140px;
+}
+
+.desc-sobremi p{
+    width: 100%;
+}
+
+.flex-numgen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex-num{
+    display: flex;
+}
+.flex-num h2{
+    margin: 2px;
+}
+#mas{
+    color: #8aff00;
+    
+}
+
+.flex-may{
+    display: flex;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.cubo {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.cubo img{
+    margin: 30px;
+    max-width: 100px;
+    max-height: 100px;
 }
 
 
