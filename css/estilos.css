@@ -71,7 +71,15 @@ header{
 }
 #logo{
     flex: 10%;
+    max-width: 50px;
+    max-height: 50px;
 }
+
+#img{
+    max-width: 50px;
+    max-height: 50px;
+}
+
 #listadenav{
     flex: 80%;
     align-self: self-start;
@@ -140,7 +148,7 @@ p{
     margin: 10px;
 }
 
-img, .scrolldown{
+.scrolldown{
     max-width: 50px;
     max-height: 50px;
 }
@@ -212,7 +220,7 @@ flex-direction: row;
     color: #8aff00;
 }
 
-.sobremi button img { /*WARNING no finalizado*/
+#button { /*flecha no centrada totalmente*/
     width: 10px;
 }
 
@@ -277,7 +285,7 @@ flex-direction: row;
 }
 
 .sectiras{
-    width: 100vw;
+    width: 100%;
     height: 640px;
     overflow: hidden;
     position: relative;
@@ -294,7 +302,7 @@ flex-direction: row;
     left: 40%;
     transform-origin: center center; /* fijar el centro de rotación */
     margin-top: -50px;
-    margin-left: -50vw; 
+    margin-left: -50%; 
     display: flex;
     align-items: center;
 }
@@ -332,7 +340,7 @@ flex-direction: row;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
 }
 
@@ -340,7 +348,7 @@ flex-direction: row;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     margin-bottom: 100px;
 }
 
@@ -432,18 +440,90 @@ flex-direction: row;
 
 .seccinco{
     font-family: 'TikusPutih-semibold';
+    padding-top: 30px;
+    padding-left: 0;
+    margin-top: 150px;
+    background-color: #0b0b0b;
+    height: auto;
 }
 
 .seccinco p{
     color: #8aff00;
+    font-family: 'Specify-PERSONAL-Expanded-Bold';
+}
+
+#buttoninfo{
+    color: #fff;
+    opacity: 80%;
+}
+
+.ts{
+    font-family: 'Specify-PERSONAL-Expanded-Bold';
+}
+
+.fecha{
+    font-size: 40px;
+    width: 100%;
 }
 
 .selecworks{
-    background-color: #0b0b0b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.selecworks div{
+    margin: 100px;
+}
+
+.selecworks div p{
+    opacity: 100%;
+}
+
+#parteuno{
+    width: 80%;
+}
+
+#partedos{
+    width: 20%;
 }
 
 .fotos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+
+.fotos div{
+    margin-right: 10px;
     background-color: #1d1d1d;
+    padding: 50px;
+}
+
+.fotos div img{
+    width: 100%;
+    height: 100%;
+}
+
+#imgtres{
+    margin-right: 0px;
+}
+
+#segundatiras{
+    font-family: 'Specify-PERSONAL-Expanded-Bold';
+    height: 150px;
+}
+
+#tiraacostada{
+    transform: rotate(0deg);
+    top: 100px;
+    position: relative;
+}
+
+#colab{
+    color: #8aff00;
+    font-family: 'Specify-PERSONAL-Expanded-Bold';
 }
 
 

@@ -48,11 +48,11 @@
 			</div>
 			<div class="clienteslista">
 				<ul>
-					<li><img src="img/velocity.png" alt=""></li>
-					<li><img src="img/muzica.png" alt=""></li>
-					<li><img src="img/foxhub.png" alt=""></li>
-					<li><img src="img/ztos.png" alt=""></li>
-					<li><img src="img/liva.png" alt=""></li>
+					<li><img id="img" src="img/velocity.png" alt=""></li>
+					<li><img id="img" src="img/muzica.png" alt=""></li>
+					<li><img id="img" src="img/foxhub.png" alt=""></li>
+					<li><img id="img" src="img/ztos.png" alt=""></li>
+					<li><img id="img" src="img/liva.png" alt=""></li>
 				</ul>
 			</div>
 			
@@ -62,7 +62,7 @@
 			<div class="sobremi">
 				<p>Sobre mi</p>
 				<h1>Puedo ofrecer resultados que superen sus expectativas.</h1>
-				<button id="button-hiremenow">Contrateme Ahora <img src="img/flecha.png" alt=""></button>
+				<button id="button-hiremenow">Contrateme Ahora <img id="button" src="img/flecha.png" alt=""></button>
 				<div class="cubo" id="cubodos">
 					<img src="img/cubo.png" alt="">
 				</div>
@@ -167,21 +167,31 @@
 
 		<section class="seccinco">
 			<div class="selecworks">
-				<div>
+				<div id="parteuno">
 					<p>Portfolio</p>
-					<h1>Trabajos Seleccionados</h1>
-					<h1>2020-2022</h1>
+					<h1 class="ts">Trabajos seleccionados</h1>
+					<h1 class="fecha">2020-2022</h1>
 				</div>
-				<div>
-					<p>Mira más portfolios en los que he trabajado</p>
-					<button id="button-hiremenow">Ver más <img src="img/flecha.png" alt=""></button>
+				<div id="partedos">
+					<p id="buttoninfo">Mira más portfolios en los que he trabajado</p>
+					<button id="button-hiremenow">Ver más <img id="button" src="img/flecha.png" alt=""></button>
 				</div>
 			</div>
 			<div class="fotos">
 				<div><img src="img/fotouno.png" alt=""></div>
 				<div><img src="img/fotodos.png" alt=""></div>
-				<div><img src="img/fototres.png" alt=""></div>
+				<div id="imgtres"><img src="img/fototres.png" alt=""></div>
 			</div>
+
+			<div id="segundatiras" class="sectiras">
+				<div id="tiraacostada" class="tira">
+					<span class="textosuper">NDING • UI/UX DESIGN • DEVELOPMENT • ICON DESIGN • LOGO BRANDING • UI/UX DESIGN • DEVELOPMENT • ICON DESIGN</span>
+				</div>
+			</div>
+		</section>
+		
+		<section class="secseis">
+			<p id="colab">Colaboración</p>
 		</section>
 </body>
 </html>
