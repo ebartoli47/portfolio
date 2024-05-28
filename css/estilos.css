@@ -95,6 +95,15 @@ header{
     max-width: 110px;
 }
 
+#button-getintouchdos{
+    background-color: #8aff00;
+    border: 1px solid #8aff00;
+    padding: 15px;
+    font-size: 10px;
+    cursor: pointer;
+    max-width: 140px;
+}
+
 .maintexto{
     display: flex;
     justify-content:center;
@@ -521,9 +530,70 @@ flex-direction: row;
     position: relative;
 }
 
+.secseis{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.colabytitulo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#subtitulo{
+    margin-top: 0px;
+    font-size: 60px;
+    text-align: center;
+    width: 60%;
+}
+
 #colab{
     color: #8aff00;
     font-family: 'Specify-PERSONAL-Expanded-Bold';
+}
+
+hr{
+    color: gray;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+
+}
+
+.divbotones{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.cubofinaluno{
+    right: 40px;
+    position: absolute;
+    top: 90px;
+}
+
+.cubofinaluno img{
+    width: 100px;
+}
+
+.cubofinaldos{
+    bottom: 10px;
+    left: 40px;
+    position: absolute;
+
+}
+
+.cubofinaldos img{
+    width: 50px;
 }
 
 
