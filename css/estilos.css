@@ -278,7 +278,7 @@ flex-direction: row;
 
 .sectiras{
     width: 100vw;
-    height: 500px;
+    height: 640px;
     overflow: hidden;
     position: relative;
 
@@ -430,6 +430,21 @@ flex-direction: row;
     padding-right: 30px;
 }
 
+.seccinco{
+    font-family: 'TikusPutih-semibold';
+}
+
+.seccinco p{
+    color: #8aff00;
+}
+
+.selecworks{
+    background-color: #0b0b0b;
+}
+
+.fotos{
+    background-color: #1d1d1d;
+}
 
 
 /*responsive*/
