@@ -275,9 +275,33 @@ flex-direction: row;
     left: -80px;
 }
 
-.sectiras img{
-    max-width: 100%;
-    max-height: 100%;
+.sectiras{
+    width: 100vw;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.tira{
+    width: 200vh;
+    height: 90px;
+    background: #8aff00;
+    transform: rotate(10deg);
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform-origin: center center; /* fijar el centro de rotación */
+    margin-top: -50px;
+    margin-left: -50vw; 
+}
+
+.textosuper{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    z-index: 1; 
+    color: black;
+    font-size: 50px;
 }
 
 
