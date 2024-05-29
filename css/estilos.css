@@ -470,19 +470,22 @@ flex-direction: row;
 
 .desarollo ul, .diseños ul {
     display: flex;
+    opacity: 80%;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 10px;
+    align-items: center;
+    padding: 30px;
     list-style: none;
 }
 
 .desarollo ul li, .diseños ul li {
     flex-grow: 1;
-    max-width: calc(50% - 40px);
-    margin: 20px;
+    max-width: calc(30% - 40px);
     border: 1px solid #fff;
-    padding: 5%;
+    padding: 50px;
     box-sizing: border-box;
+    max-height: 150px;
+    text-align: center;
 }
 
 .desarollo ul li img, .diseños ul li img {
@@ -786,22 +789,24 @@ footer{
 }
 
 /*diseños*/
-@media (min-width: 768px) {
-    .diseños ul li {
-        width: calc(50% - 20px); /* Dos elementos por fila con margen */
-        margin: 10px; /* Espaciado horizontal entre elementos */
+@media (max-width: 768px) {
+    .desarollo ul li, .diseños ul li {
+        max-width: calc(80% - 10px);
+        max-height: 100px;
     }
 }
 
-@media (min-width: 992px) {
-    .diseños ul li {
-        width: calc(33.33% - 20px);
+@media (max-width: 480px) {
+    .desarollo ul li, .diseños ul li {
+        max-width: calc(100% - 10px);
+        max-height: 80px; /* Establecido una altura máxima menor */
     }
 }
 
 @media (min-width: 1200px) {
     .diseños ul li {
-        width: calc(25% - 20px);
+        width: calc(20% - 20px);
+        max-height: 120px;
     }
 }
 
