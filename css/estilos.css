@@ -368,8 +368,8 @@ flex-direction: row;
 
 .cubosdos{
     display: flex;
-    position: relative;
-    bottom: -20px;
+    position: absolute;
+    bottom: 1000px;
     right: 100px;
     flex-direction: column;
 }
@@ -395,6 +395,7 @@ flex-direction: row;
     align-items: center;
     flex-direction: column;
     text-align: center;
+    position: relative;
 }
 
 .catego{
@@ -599,6 +600,39 @@ hr{
 
 .cubofinaldos img{
     width: 50px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.footderechos{
+    margin-bottom:10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footderechos p {
+    padding: 10px;
+    font-size: 15px;
+    width: 60%;
+}
+
+.redes ul{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.redes ul li{
+    margin: 5px;
+}
+
+#menosopac{
+    opacity: 85%;
 }
 
 
