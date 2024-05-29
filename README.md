@@ -8,4 +8,4 @@ Clickee a la derecha en **Deployments** y aprete en el link. Sino puede acceder 
 
 ## Autores ✒️
 
-* **Andrés Villanueva** - *Trabajo Completo* - [Laureano-Bartoli](https://github.com/ebartoli47)
+* **Laureano Bartoli** - *Trabajo Completo* - [Laureano-Bartoli](https://github.com/ebartoli47)
