@@ -208,6 +208,7 @@ flex-direction: row;
 
 .secciondos h2{
     font-family: 'TikusPutih-semibold';
+    font-size: 50px;
 }
 
 .sobremi, .desc-sobremi{
@@ -245,6 +246,11 @@ flex-direction: row;
 
 .desc-sobremi p{
     width: 100%;
+    font-size: 20px;
+}
+
+.textodecatego p{
+    font-size: 18px;
 }
 
 .flex-numgen{
@@ -295,7 +301,7 @@ flex-direction: row;
 
 .sectiras{
     width: 100%;
-    height: 640px;
+    height: 400px;
     overflow: hidden;
     position: relative;
 
@@ -305,7 +311,7 @@ flex-direction: row;
     width: 300vh;
     height: 90px;
     background: #8aff00;
-    transform: rotate(10deg);
+    transform: rotate(5deg);
     position: absolute;
     top: 70%;
     left: 40%;
@@ -319,7 +325,7 @@ flex-direction: row;
     width: 300vh;
     height: 90px;
     background: #8aff00;
-    transform: rotate(-10deg);
+    transform: rotate(-5deg);
     position: absolute;
     top: 70%;
     left: 40%;
@@ -358,7 +364,6 @@ flex-direction: row;
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    margin-bottom: 100px;
 }
 
 .cubosdos{
