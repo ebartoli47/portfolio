@@ -6,8 +6,7 @@
         margin-left: -50%;
     }
     .clienteslista ul li img {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding: 10px;
     }
     .presentacion {
         width: 90%;
@@ -20,7 +19,7 @@
     }
     .desarollo ul li,
     .diseños ul li {
-        max-width: calc(100% - 10px);
+        max-width: calc(100% - 20px);
         max-height: 80px;
     }
     .secseis {
@@ -34,7 +33,6 @@
         width: 50%;
     }
     .fotos div {
-        background-color: #1d1d1d;
         padding: 50px;
         height: 300px;
         width: auto;
@@ -49,8 +47,7 @@
         margin-left: -75%;
     }
     .clienteslista ul li img {
-        padding-left: 30px;
-        padding-right: 30px;
+        padding: 20px;
     }
     .presentacion {
         width: 80%;
@@ -63,7 +60,7 @@
     }
     .desarollo ul li,
     .diseños ul li {
-        max-width: calc(80% - 10px);
+        max-width: calc(80% - 20px);
         max-height: 100px;
     }
     .secseis {
@@ -73,18 +70,9 @@
         font-size: 50px;
         width: 60%;
     }
-    #partedos {
-        width: 50%;
-    }
-    .fotos div {
-        background-color: #1d1d1d;
-        padding: 50px;
-        height: 300px;
-        width: auto;
-    }
 }
 
-@media (min-width: 767px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .tira,
     .tirados {
         width: 200%;
@@ -92,8 +80,7 @@
         margin-left: -100%;
     }
     .clienteslista ul li img {
-        padding-left: 50px;
-        padding-right: 50px;
+        padding: 40px;
     }
     .presentacion {
         width: 60%;
@@ -106,7 +93,7 @@
     }
     .desarollo ul li,
     .diseños ul li {
-        max-width: calc(80% - 10px);
+        max-width: calc(80% - 20px);
         max-height: 100px;
     }
     .secseis {
@@ -115,15 +102,6 @@
     #subtitulo {
         font-size: 60px;
         width: 50%;
-    }
-    #partedos {
-        width: 50%;
-    }
-    .fotos div {
-        background-color: #1d1d1d;
-        padding: 110px;
-        height: 300px;
-        width: auto;
     }
 }
 
@@ -135,8 +113,7 @@
         margin-left: -100%;
     }
     .clienteslista ul li img {
-        padding-left: 50px;
-        padding-right: 50px;
+        padding: 50px;
     }
     .presentacion {
         width: 60%;
@@ -155,17 +132,4 @@
     .secseis {
         margin: 100px;
     }
-    #subtitulo {
-        font-size: 60px;
-        width: 50%;
-    }
-    #partedos {
-        width: 50%;
-    }
-    .fotos div {
-        background-color: #1d1d1d;
-        padding: 110px;
-        height: 300px;
-        width: auto;
-    }
-}
+    #subt
