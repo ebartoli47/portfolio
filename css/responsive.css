@@ -1,0 +1,171 @@
+@media (max-width: 480px) {
+    .tira,
+    .tirados {
+        width: 100%;
+        height: 30px;
+        margin-left: -50%;
+    }
+    .clienteslista ul li img {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .presentacion {
+        width: 90%;
+    }
+    #nombre {
+        font-size: 30px;
+    }
+    .presentacion p {
+        width: 90%;
+    }
+    .desarollo ul li,
+    .diseños ul li {
+        max-width: calc(100% - 10px);
+        max-height: 80px;
+    }
+    .secseis {
+        margin: 30px;
+    }
+    #subtitulo {
+        font-size: 40px;
+        width: 70%;
+    }
+    #partedos {
+        width: 50%;
+    }
+    .fotos div {
+        background-color: #1d1d1d;
+        padding: 50px;
+        height: 300px;
+        width: auto;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .tira,
+    .tirados {
+        width: 150%;
+        height: 45px;
+        margin-left: -75%;
+    }
+    .clienteslista ul li img {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .presentacion {
+        width: 80%;
+    }
+    #nombre {
+        font-size: 40px;
+    }
+    .presentacion p {
+        width: 80%;
+    }
+    .desarollo ul li,
+    .diseños ul li {
+        max-width: calc(80% - 10px);
+        max-height: 100px;
+    }
+    .secseis {
+        margin: 50px;
+    }
+    #subtitulo {
+        font-size: 50px;
+        width: 60%;
+    }
+    #partedos {
+        width: 50%;
+    }
+    .fotos div {
+        background-color: #1d1d1d;
+        padding: 50px;
+        height: 300px;
+        width: auto;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+    .tira,
+    .tirados {
+        width: 200%;
+        height: 60px;
+        margin-left: -100%;
+    }
+    .clienteslista ul li img {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .presentacion {
+        width: 60%;
+    }
+    #nombre {
+        font-size: 60px;
+    }
+    .presentacion p {
+        width: 80%;
+    }
+    .desarollo ul li,
+    .diseños ul li {
+        max-width: calc(80% - 10px);
+        max-height: 100px;
+    }
+    .secseis {
+        margin: 100px;
+    }
+    #subtitulo {
+        font-size: 60px;
+        width: 50%;
+    }
+    #partedos {
+        width: 50%;
+    }
+    .fotos div {
+        background-color: #1d1d1d;
+        padding: 110px;
+        height: 300px;
+        width: auto;
+    }
+}
+
+@media (min-width: 1025px) {
+    .tira,
+    .tirados {
+        width: 200%;
+        height: 60px;
+        margin-left: -100%;
+    }
+    .clienteslista ul li img {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .presentacion {
+        width: 60%;
+    }
+    #nombre {
+        font-size: 60px;
+    }
+    .presentacion p {
+        width: 80%;
+    }
+    .desarollo ul li,
+    .diseños ul li {
+        width: calc(20% - 20px);
+        max-height: 120px;
+    }
+    .secseis {
+        margin: 100px;
+    }
+    #subtitulo {
+        font-size: 60px;
+        width: 50%;
+    }
+    #partedos {
+        width: 50%;
+    }
+    .fotos div {
+        background-color: #1d1d1d;
+        padding: 110px;
+        height: 300px;
+        width: auto;
+    }
+}
