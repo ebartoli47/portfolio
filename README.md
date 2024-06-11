@@ -1,6 +1,6 @@
 # Laureano Bartoli | Portfolio
 
-Este es un portfolio ejemplo sobre mi basado en el portfolio de https://dribbble.com/shots/20658125-Personal-Portfolio-Landing-Page, en el cual trabaje y se ven aplicados mis conocimientos sobre css y html.
+Este es un portfolio ejemplo sobre mi basado en el portfolio de https://dribbble.com/shots/20658125-Personal-Portfolio-Landing-Page, en el cual trabaje y se ven aplicados mis conocimientos sobre css y html (responsive no acabado).
 
 ## Comenzando 🚀
 
